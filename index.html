@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id = "utton" >Click to get started</button>
+    <p>
+    </p>
+    <div id = "model">
+    <div id = "card">
+        <h2>Hello!</h2>
+        <p>Welcome to our website. Here <br>you can find anything you want. Click to log in</p>
+        <div id = "login">
+        <button id = "tton">Skip</button>
+        <button id = "ton">Login</button>
+        </div>
+    </div>
+    </div>
+    <script>
+var notshow = document.getElementById("card");
+var a = document.getElementById("utton")
+a.addEventListener("click", function(){
+    document.querySelector("#model").style.display = "flex";
+   
+})
+var notshow = document.getElementById("card");
+var b = document.getElementById("tton")
+b.addEventListener("click", function(){
+    document.querySelector("#model").style.display = "none";
+   
+})
+    </script>
+</body>
+</html>
